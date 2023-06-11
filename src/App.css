@@ -5,3 +5,71 @@
 body{
     margin: 0;
 }
+.App-container{
+        background-color: #282D35;;
+        border: 1px solid #dadde1;
+        border-radius: 5px;
+        max-width: 300px;
+        height: 550px;
+        padding: 16px;
+        margin: 20px auto;
+}
+.InfoImage {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left:40px;
+    top:10px ;
+  
+}
+.InfoImage img {
+    max-width: 100%;
+    max-height: 100%;
+   
+       
+}
+.Info h1{
+    font-family: 'roboto';
+    text-align: center ;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.Info h4{
+ 
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    margin-bottom: 20px;
+            
+}
+.buttons a{
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid #dadde1;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+   display: block;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration:none ;
+}
+.buttons .portfolio-address{
+    color: black;
+    font-weight: 600;
+    background-color: #dadde1;
+}
+.buttons .email-address{
+    color: #dadde1;
+    background-color: #003366;
+    border: 1px solid #003366;
+}
+.buttons a:hover {
+    opacity: 0.70;
+    background-color:black ;
+    color: #FFFFFF;
+}
+
+
