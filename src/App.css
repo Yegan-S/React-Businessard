@@ -10,9 +10,9 @@ body{
         border: 1px solid #dadde1;
         border-radius: 5px;
         max-width: 300px;
-        height: 600px;
+        height: 500px;
         padding: 10px;
-        margin: 10px auto;
+        margin: 30px auto;
 }
 .InfoImage {
     height: 150px;
@@ -70,6 +70,42 @@ body{
     opacity: 0.70;
     background-color:black ;
     color: #FFFFFF;
+}
+.About{
+    margin: 20px ;
+    
+    
+}
+.About h1{
+    font-size: 18px;
+    color: white;
+    font-family:'Lato' ;
+    margin: 20px 10px 10px;
+
+}
+.About p{
+    color: white;
+    font-size:14px;
+    margin-top: 5px;
+}
+.SocialMedia{
+    display: flex;
+    justify-content:center ;
+    padding: 5px;
+    margin: 30px 0;
+}
+.social-icon{
+    margin: 8px;
+    font-size: 16px;
+    color: #dbd8e3;
+    opacity: 0.2;
+
+}
+.social-icon:hover{
+transition: all 0.5s ease-out;
+color: #003366;
+opacity: 0.9;
+font-size: 20px;
 }
 
 
